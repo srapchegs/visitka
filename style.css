@@ -5,8 +5,19 @@ body {
 }
 
 h1{
+    border-top: 3px solid;
+    width: 80%;
+    padding: 50px;
+    margin: auto;
     color: #133657;
     font-size: 42pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: #133657;
+    font-size: 30pt;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -55,9 +66,85 @@ h1{
     color: aliceblue;
     font-size: 28pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    height: 100px;
+    text-align: center;
+    height: 150px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 55px;
+    vertical-align: text-top;
+    margin-bottom: 30px;
+}
+#df{
+    position: absolute;
+    margin-left: -32%;
+    margin-top: -1%;
+}
+#df2{
+    position: absolute;
+    margin-left: -30%;
+    margin-top: -1%;
+}
+#df2span{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* span{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 30%;
+} */
+.h11{
+    margin-top: 60px;
+}
+.buttonclass{
+    margin-top: 90px;
+}
+
+
+.carousel-container {
+position: relative;
+width: 700px;
+margin: 50px auto;
+overflow: hidden;
+border-radius: 40px;
+}
+
+.carousel {
+width: 700px;
+display: flex;
+transition: transform 0.5s ease;
+}
+
+.imgs {
+width: 100%;
+height: auto;
+}
+
+.buttonz {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 24px;
+border: none;
+background: transparent;
+cursor: pointer;
+}
+
+.prev {
+left: 10px;
+}
+
+.next {
+right: 10px;
+}
+footer{
+    background-color: #133657;
+    height: 140px;
+    color: aliceblue;
+    font-size: 30pt;
+    text-align: center;
+}
+#copy{
+    padding-top: 40px;
 }
